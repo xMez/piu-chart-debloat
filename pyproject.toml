@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "piu-chart-debloat"
+version = "0.1.0"
+description = "Reduce size of custom PIU charts by removing BG videos and compressing audio and images"
+authors = ["Mez <5909610+xMez@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
