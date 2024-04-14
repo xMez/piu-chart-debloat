@@ -2,6 +2,6 @@
 Debloats PIU charts for Pumpsanity
 
 ## Dependencies
-* ffmped
+* ffmpeg
 * imagemagick
 * sed
